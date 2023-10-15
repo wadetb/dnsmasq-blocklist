@@ -1,0 +1,7 @@
+[Unit]
+Description=Fetch Adblock list and create dnsmasq conf file
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /usr/local/bin/dnsmasq-blocklist.sh
+

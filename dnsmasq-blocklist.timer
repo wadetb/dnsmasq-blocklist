@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily timer for dnsmasq-blocklist service
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+
